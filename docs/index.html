@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Casper — Systems Software Engineer</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="logo">Casper.dev</div>
+
+      <nav class="nav-links">
+        <a href="#timeline">Timeline</a>
+        <a href="#projects">Projects</a>
+        <a href="#philosophy">Approach</a>
+        <a href="https://github.com/CasualX" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Systems Software Engineer</div>
+
+          <h1>Building software close to the machine.</h1>
+
+          <p>
+            I'm Casper, a systems software engineer based in Western Europe.
+            My background runs from TI-83+ calculators and Z80 assembly through C and C++,
+            into C#, Python, and Rust-first systems work.
+          </p>
+
+          <p>
+            By day I work on industrial software in the 3D printing space. Outside work I build systems:
+            reverse-engineering, rendering, video game architecture, data formats, parsers, code generators, and more.
+          </p>
+
+          <p>
+            This site is meant as a technical portfolio: a concise view of the kinds of problems I solve,
+            the domains where I developed my engineering chops, and the projects that best show how I think.
+          </p>
+
+          <div class="hero-links">
+            <a class="button" href="https://github.com/CasualX" target="_blank" rel="noreferrer">View GitHub</a>
+            <a class="button" href="#timeline">Timeline</a>
+            <a class="button" href="#projects">Browse Projects</a>
+          </div>
+        </div>
+
+        <div class="terminal">
+          <div class="terminal-top">systems-overview.log</div>
+
+          <div class="terminal-body">
+            <div class="terminal-line"><span>$ </span>areas_of_interest</div>
+            <div>systems programming</div>
+            <div>game engine architecture</div>
+            <div>graphics & rendering</div>
+            <div>tooling & infrastructure</div>
+            <div>reverse engineering</div>
+            <div>developer tooling</div>
+
+            <br />
+
+            <div class="terminal-line"><span>$ </span>languages</div>
+            <div>Rust</div>
+            <div>x86_64 SIMD</div>
+            <div>C#</div>
+            <div>Javascript</div>
+            <div>Python</div>
+            <div>C/C++</div>
+
+            <br />
+
+            <div class="terminal-line"><span>$ </span>engineering_values</div>
+            <div>explicit systems</div>
+            <div>incremental architecture</div>
+            <div>long-term maintainability</div>
+            <div>local reasoning</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline">
+      <div class="container">
+        <div class="section-header timeline-header">
+          <div>
+            <h2 class="section-title">Timeline</h2>
+            <p class="section-description">
+              Rough milestones for the tools, languages, and kinds of systems work that shaped how I build software.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-list">
+          <article class="timeline-item">
+            <div class="timeline-range">2003-2006</div>
+            <div class="timeline-card">
+              <h3>TI-83+ calculators and Z80 assembly</h3>
+              <p>
+                My first introduction to programming came through the TI-83+: working within hard limits,
+                understanding memory, and learning the low-level details of the machine itself.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-range">2006-2017</div>
+            <div class="timeline-card">
+              <h3>C/C++ development</h3>
+              <p>
+                I spent years deep in C and C++, building up the habits that still define my work: explicit control,
+                reverse engineering, debugging close to the machine, and comfort with lower-level APIs. By 2017,
+                that chapter had mostly closed in both personal and professional work.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-range">2016-present</div>
+            <div class="timeline-card">
+              <h3>Rust becomes the main personal language</h3>
+              <p>
+                I picked up Rust not long after the 1.0 release, and by 2016 it had become the default choice for serious personal work.
+                It was the first language in a long time that felt like it matched how I wanted to build systems software.
+              </p>
+              <p>
+                Most of my notable personal work since then has been in Rust: rendering libraries, video games, parsing and binary-data-format work, and reusable developer infrastructure.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-range">2018-2023</div>
+            <div class="timeline-card">
+              <h3>C# in professional software development</h3>
+              <p>
+                When I moved into company work, I started on the C++ side and gradually transitioned into C#, which became my main day-job language for several years.
+                That period was focused on industrial software and reinforced the same preference for explicit systems, just in a more application-facing environment.
+                The C# code interfaced with C++ algorithms, and I helped build the binding layer before later moving further into the application layer.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-range">2023-present</div>
+            <div class="timeline-card">
+              <h3>Python for industrial software</h3>
+              <p>
+                Work shifted from C# toward Python, which is still my main professional language today.
+                The domain is still industrial software for 3D printing, but the day-to-day implementation is now in Python.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-range">Ongoing</div>
+            <div class="timeline-card">
+              <h3>JavaScript for browser-facing products and tools</h3>
+              <p>
+                In parallel, I keep using JavaScript on and off for personal web projects, lightweight apps, dashboards, and browser-based interfaces.
+                It has never been a professional focus, but it remains one of the most effective ways to ship supporting tools around other systems work.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="section-header projects-header">
+          <div>
+            <h2 class="section-title">Projects</h2>
+            <p class="section-description projects-description">
+              I keep this list broad on purpose. Different domains forced me to learn different constraints:
+              graphics made performance and APIs concrete, reverse engineering sharpened binary reasoning and tooling,
+              and library work forced me to care about interface design, maintenance, and long-term clarity.
+            </p>
+          </div>
+        </div>
+
+        <div class="domain-index-wrap">
+          <div class="domain-index-label">Domains of expertise</div>
+
+          <nav class="domain-index" aria-label="Project domains">
+            <a href="#graphics-games">Graphics and Video Games</a>
+            <a href="#rust-libraries">Rust Libraries</a>
+            <a href="#web-frontend">Web Frontend</a>
+            <a href="#reverse-engineering">Reverse Engineering</a>
+            <a href="#dayjob">Day Job</a>
+          </nav>
+        </div>
+
+        <div class="domain-grid">
+          <div class="domain" id="graphics-games">
+            <div class="domain-header">
+              <h3>Graphics and Video Games</h3>
+              <p>Rendering APIs, runtime code, math-heavy infrastructure, and cross-platform video game work.</p>
+              <p>This domain taught me graphics math, ray tracing, rendering APIs, game architecture, and how to build complex systems with real-time constraints and interactive state.</p>
+              <p>It also pushed me into cross-platform delivery across desktop, web, and mobile, along with asset packaging and archive-format design.</p>
+            </div>
+
+            <div class="project-list">
+              <div class="project">
+                <a href="https://github.com/CasualX/chipdx" target="_blank" rel="noreferrer">chipdx</a>
+                <p>A remaster of the classic video game <i>Chip's Challenge</i> with desktop, web, mobile, and editor workflows, built as a complete interactive game stack.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/shade" target="_blank" rel="noreferrer">shade</a>
+                <p>A unified Rust rendering library spanning OpenGL and WebGL, with explicit control over buffers, textures, shaders, uniforms, and draw calls.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/cvmath" target="_blank" rel="noreferrer">cvmath</a>
+                <p>A compact graphics-oriented math library for vectors, transforms, geometry, and ray tracing without trying to be a general-purpose numeric package.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/paks" target="_blank" rel="noreferrer">paks</a>
+                <p>An encrypted archive format based on Quake's PAK structure, used for game-related asset packaging and distribution.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/rustydialogs" target="_blank" rel="noreferrer">rustydialogs</a>
+                <p>A cross-platform Rust library for native dialogs and notifications, with backend-specific behavior kept visible instead of hidden behind vague abstractions.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="domain" id="rust-libraries">
+            <div class="domain-header">
+              <h3>Rust Libraries</h3>
+              <p>Reusable crates and developer-facing building blocks across parsing, formatting, configuration, encoding, randomness, and low-level data handling.</p>
+            </div>
+
+            <div class="project-list">
+              <div class="project">
+                <a href="https://github.com/CasualX/cvar" target="_blank" rel="noreferrer">cvar</a>
+                <p>A configuration system for long-lived program state, exposing properties, actions, and hierarchies through a string-driven interface.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/urandom" target="_blank" rel="noreferrer">urandom</a>
+                <p>A randomness crate focused on consumer ergonomics, explicit state, and a smaller, easier-to-follow API surface than the standard rand crate.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/basenc" target="_blank" rel="noreferrer">basenc</a>
+                <p>Base16, Base32, and Base64 encoding and decoding with a simple API, no_std support, and optional SIMD acceleration.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/obfstr" target="_blank" rel="noreferrer">obfstr</a>
+                <p>Compile-time string obfuscation for Rust, including temporary deobfuscation and related helpers.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/dataview" target="_blank" rel="noreferrer">dataview</a>
+                <p>Safe transmute and byte-view primitives for POD-like data, built around explicit access to underlying byte buffers.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/fmtools" target="_blank" rel="noreferrer">fmtools</a>
+                <p>Extended formatting syntax for Rust with compile-time generation, control flow, and minimal runtime overhead.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/intptr" target="_blank" rel="noreferrer">intptr</a>
+                <p>Explicitly sized and typed pointer abstractions for memory outside the current address space, especially other processes.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/format_xml" target="_blank" rel="noreferrer">format_xml</a>
+                <p>Xml-like compile-time templating for Rust with inline expressions, escaping rules, and control flow aimed at generating structured markup directly.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/named_constants" target="_blank" rel="noreferrer">named_constants</a>
+                <p>A procedural macro that rewrites enums into C-style named constant wrappers when explicit numeric control matters more than exhaustive matching.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/struct_layout" target="_blank" rel="noreferrer">struct_layout</a>
+                <p>A proc-macro for defining structs with explicit size, alignment, offsets, and field access rules when layout needs to be spelled out directly.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/bitset-core" target="_blank" rel="noreferrer">bitset-core</a>
+                <p>A straightforward BitSet API for no_std Rust, designed around primitive containers and compiler-friendly vectorization.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/ini_core" target="_blank" rel="noreferrer">ini_core</a>
+                <p>A super-fast streaming INI parser for Rust with no_std support and intentionally minimal assumptions about the format.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="domain" id="web-frontend">
+            <div class="domain-header">
+              <h3>Web Frontend</h3>
+              <p>Progressive web apps, browser-facing tools, lightweight frontend workflows, and web-adjacent utilities.</p>
+              <p>
+                I do not approach frontend as a design-system specialization. I use it as a practical surface for shipping tools,
+                visualizing data, and giving systems work an interface people can actually operate.
+              </p>
+              <p>Here I learned reactivity, state management, and how to build interactive user interfaces. My main tools are Vue and Alpine.</p>
+              <p>In my style I implemented my own Vue sfc parser and compiler avoiding the usual npm-heavy stack.</p>
+            </div>
+
+            <div class="project-list">
+              <div class="project">
+                <a href="https://github.com/CasualX/PocketApps" target="_blank" rel="noreferrer">PocketApps</a>
+                <p>Simple mobile-friendly web apps that you can pin to your home screen and use offline, built directly with HTML, CSS, and JavaScript.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/Vue-Script" target="_blank" rel="noreferrer">Vue-Script</a>
+                <p>A small build tool for Vue single-file components that avoids the usual npm-heavy stack and assembles templates, scripts, imports, and styles into one final HTML file.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/tagsoup" target="_blank" rel="noreferrer">tagsoup</a>
+                <p>A small, fast, forgiving HTML-ish parser in Rust with selector queries and recovery for messy real-world markup.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="domain" id="reverse-engineering">
+            <div class="domain-header">
+              <h3>Reverse Engineering</h3>
+              <p>Binary formats, process memory, instrumentation, OS-facing APIs, and low-level inspection work.</p>
+              <p>This is the most traditional-hacker part of my background: reverse engineering video games and integrating with them from the outside.</p>
+              <p>This domain taught me to read assembly, understand binary formats, work with OS APIs for process interaction, and build tools that let me inspect and manipulate complex software externally.</p>
+            </div>
+
+            <div class="project-list">
+              <div class="project">
+                <a href="https://github.com/CasualX/apexdream" target="_blank" rel="noreferrer">apexdream</a>
+                <p>An external Apex Legends reverse-engineering project. Built around prediction, configurable automation, live game-state tooling, and externally observed process state.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/q3mod" target="_blank" rel="noreferrer">q3mod</a>
+                <p>An external Quake III Arena reverse-engineering project. With offset handling, runtime tooling, trainer-style features, and a browser-based control panel.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/ProjectileSolverDemo" target="_blank" rel="noreferrer">ProjectileSolverDemo</a>
+                <p>A write-up and demo for solving projectile interception against moving targets under simple ballistic physics, with SVG visualizations and implementation notes.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/external" target="_blank" rel="noreferrer">external</a>
+                <p>A Rust library for unsafe cross-process interaction on Windows, covering handles, virtual memory, process enumeration, and low-level OS-facing primitives.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/pelite" target="_blank" rel="noreferrer">pelite</a>
+                <p>A lightweight, memory-safe, zero-allocation library for reading and navigating PE binaries on disk or in memory.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/capcom0" target="_blank" rel="noreferrer">capcom0</a>
+                <p>Rust bindings for the infamous Capcom driver, kernel-mode access from unprivileged user-mode.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/pekit" target="_blank" rel="noreferrer">pekit</a>
+                <p>A browser-based Portable Executable viewer that brings the lower-level PE parsing work into a reverse-engineering-oriented UI.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/vigem-client" target="_blank" rel="noreferrer">vigem-client</a>
+                <p>A pure Rust client for the ViGEmBus Windows driver, providing a safe and idiomatic API for virtual controller emulation.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/aurascope" target="_blank" rel="noreferrer">aurascope</a>
+                <p>A WebApp for live HTML visualization, used as a browser-facing surface for inspecting and controlling live reverse-engineering data.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="domain" id="dayjob">
+            <div class="domain-header">
+              <h3>Day Job</h3>
+              <p>Data pipelines, structured formats, interface generation, and software that supports manufacturing-oriented workflows.</p>
+              <p>This work is related to my day job in the 3D printing space, where I build tools for working with geometry, materials, and machine instructions.</p>
+            </div>
+
+            <div class="project-list">
+              <div class="project">
+                <a href="https://github.com/CasualX/UntitledDataFormat" target="_blank" rel="noreferrer">UntitledDataFormat</a>
+                <p>UDF is a simple, self-describing structured binary file format for storing arrays and their relationships.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/cradle" target="_blank" rel="noreferrer">cradle</a>
+                <p>A code generator for C APIs described by the cradle IDL, aimed at explicit interfaces and repeatable generation across systems boundaries.</p>
+              </div>
+
+              <div class="project">
+                <a href="https://github.com/CasualX/program-proxy" target="_blank" rel="noreferrer">program-proxy</a>
+                <p>A thin executable proxy that forwards stdin, stdout, stderr, arguments, and environment to another program with a small config file.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="philosophy">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Engineering Approach</h2>
+          </div>
+        </div>
+
+        <div class="philosophy">
+          <div class="philosophy-card">
+            <h3>Explicit Architecture</h3>
+            <p>
+              I prefer systems with visible data flow, clear ownership, and predictable behavior.
+              I value code that can be understood and debugged locally over heavily abstracted magic.
+            </p>
+          </div>
+
+          <div class="philosophy-card">
+            <h3>Incremental Design</h3>
+            <p>
+              I build systems step by step. Real architecture comes from understanding pressure and constraints,
+              not from designing every abstraction upfront.
+            </p>
+          </div>
+
+          <div class="philosophy-card">
+            <h3>Long-Term Maintainability</h3>
+            <p>
+              I care about leaving projects in a state that is still pleasant to work in years later.
+              Sustainable foundations matter more than short-term velocity.
+            </p>
+          </div>
+
+          <div class="philosophy-card">
+            <h3>Systems & Foundations</h3>
+            <p>
+              Most of my work gravitates toward infrastructure, runtimes, rendering systems,
+              tooling, build systems, and the technical foundations other software depends on.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-note">Built with plain HTML and CSS. No frameworks, minimal dependencies.</div>
+
+      <div class="footer-links">
+        <a href="https://github.com/CasualX" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
